@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AndreDecor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./logo.jpg">
+  </head>
+
+<body class="">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3" style="height: 100px;">
+    <div class="container-fluid h-100  p-0">
+      <nav class="navbar bg-light p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex flex-row align-text-top" href="#">
+            <img src="./logo.jpg" alt="Logo" width="40" height="50" class="d-inline-block align-text-top">
+            <p class="m-0">AndreDecor</p>
+          </a>
+        </div>
+      </nav>
+      <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  bg-light p-3 p-lg-0 " id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex flex-lg-row flex-column mb-lg-0 ms-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./quienesSomos.html">Quiens somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cortinas Modernas
+            </a>
+            <ul class="dropdown-menu border-0 p-0">
+              <li><a class="dropdown-item border rounded-top text-center" href="#">Cortinas Riplefold</a></li>
+              <li><a class="dropdown-item border text-center" href="#">Cortinas para Sala</a></li>
+              <li><a class="dropdown-item border text-center" href="#">Cortinas para Dromitorios</a></li>
+              <li><a class="dropdown-item border text-center" href="#">Cortinas Infantiles</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cortinas Roller
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-center" href="#">Action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-center" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-center" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Persianas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Estores
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Otros servicios</a>
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </nav>
+
+  
+  <main class="w-100" style="padding-top: 100px;">
+    <div  class="carousel slide d-none d-md-block" id="carouselExampleAutoplaying" data-bs-ride="carousel">
+      <div class="carousel-inner d-none d-md-block w-100">
+        <div class="carousel-item active w-100">
+          <img src="./imgcortinas.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Andre-decor/images.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Andre-decor/imgcortinas.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev z-2" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next z-2" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <div class="carousel slide d-block d-md-none" id="carouselExampleIndicators"  data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner d-block d-md-none">
+        <div class="carousel-item active">
+          <img src="../Andre-decor/visillo-sofia-blanco-frontal.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Andre-decor/055A98F8-8828-4769-84B0-8B3137A6A34A-mobile.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Andre-decor/cortinas-mobile.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="presentacion container vw-100 justify-items-center flex-column">
+      <article class="descripcion d-flex flex-column justify-items-center text-center my-5">
+        <h5>Frasee inicio</h5>
+        <h2>Cortinas Andre Decor</h2>
+        <p>Somos especialistas en cualquier tipo de decoraciones</p>
+      </article>
+      
+      <article class="card mb-3 d-flex flex-column justify-items-center w-100 w-md-90 my-5" >
+        <div class="row g-2 align-items-center">
+          <div class="col-lg-7 ">
+            <img src="./imgcortinas.jpg" class="img-fluid rounded-start w-100" alt="...">
+          </div>
+          <div class="col-lg-5">
+            <div class="card-body">
+              <h5 class="card-title">Cortinas Roller Blackout</h5>
+              <p class="card-text">Las Cortinas Blackout otorgan un ambiente privado e íntimo a la vez, dado que tienen la capacidad de filtrar el sol en un 95%, bloquear el calor, el resplandor y los rayos UV . Quienes quieran privacidad total, esto es una buena opción para convertir su sala o dormitorio en un ambiente ideal para descansar y proteger los muebles del sol.</p>
+              <div class="d-flex flex-row">
+                <button type="button" class="btn btn-primary btn-sm w-50 m-2">Ver mas diseños</button>
+                <button type="button" class="btn btn-secondary btn-m w-50 m-2">Contactenos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      </article>
+    </section>
+
+
+    
+
+
+
+  
+    <div class="d-flex container justify-content-center wh-100 my-5">
+      <section class="carousel slide border rounded" id="carouselExampleControlsNoTouching"  style="width: 300px;" data-bs-touch="false"> 
+        <div class="carousel-inner w-100">
+          <div class="carousel-item active w-100">
+            <article class="card w-100 border-0" style="width: 18rem;">
+              <img src="https://cortinasdecorandre.com.pe/wp-content/uploads/2021/12/Cortinas-roller-doble-4-1-300x300.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Ver modelos</a>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item w-100">
+            <article class="card w-100 border-0" style="width: 18rem;">
+              <img src="https://cortinasdecorandre.com.pe/wp-content/uploads/2021/12/Cortinas-roller-doble-4-1-300x300.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Ver modelos</a>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item w-100">
+            <article class="card w-100 border-0" style="width: 18rem;">
+              <img src="https://cortinasdecorandre.com.pe/wp-content/uploads/2021/12/Cortinas-roller-doble-4-1-300x300.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Ver modelos</a>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item w-100">
+            <article class="card w-100 border-0" style="width: 18rem;">
+              <img src="https://cortinasdecorandre.com.pe/wp-content/uploads/2021/12/Cortinas-roller-doble-4-1-300x300.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Ver modelos</a>
+              </div>
+            </article>
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </section>
+    </div>
+
+
+
+
+
+
+  
+</main> 
+  
+</body>
+<footer class="p-4">
+    <ul class="">
+      <h2>Contacto</h2>
+      <li>Telefonos:
+        <p>982 734 843</p>
+      </li>
+      <li>Direccion:
+        <p>Av.asdhjasshdkasd</p>
+      </li>
+      <li>Correo electronico:
+        <p>ejemplo@gmail.com</p>
+      </li>
+      <ul>
+        <h4>Redes sociales:</h4>
+        <li>
+          facebook
+        </li>
+      </ul>
+    </ul>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

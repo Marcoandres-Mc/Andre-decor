@@ -1,0 +1,41 @@
+/* ******** Custom properties ******** */
+:root{
+    --Pincipal-Color--: #383b82;
+    --Secundary-Color--: #784685;
+}
+
+/* ******** Reset Styles ******** */
+*{
+    box-sizing: border-box; margin: 0; padding: o;
+}
+body{
+}
+
+footer{
+    background-color: var(--Pincipal-Color--);
+    color: white;
+}
+
+/* ******** Boostrap Styles ******** */
+
+.card-title{
+    color: var(--Secundary-Color--);
+}
+.btn-primary{
+    background-color: var(--Pincipal-Color--);
+}
+.btn-secondary{
+    background-color: var(--Secundary-Color--);
+}
+.nav-item a:hover{
+    font-weight: bolder;
+    color: var(--Secundary-Color--) !important;
+    text-decoration: underline;
+}
+/* ******** My Styles ******** */
+.descripcion{
+    color: var(--Pincipal-Color--);
+}
+.descripcion h5{
+    color: var(--Secundary-Color--);
+}

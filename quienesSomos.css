@@ -1,0 +1,28 @@
+/* ******** Custom properties ******** */
+:root{
+    --Pincipal-Color--: #383b82;
+    --Secundary-Color--: #784685;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.li-color-principal{
+    background-color: var(--Pincipal-Color--) !important;
+    color: white;
+}
+
+.li-color-secundary{
+    background-color: (var(--Secundary-Color--)) !important;
+    color: rgb(0, 0, 0);
+}
+.li-color-secundary{
+    background-color: (var(--Secundary-Color--)) !important;
+    color: rgb(0, 0, 0);
+}
+footer{
+    background-color: var(--Pincipal-Color--);
+    color: white;
+}
